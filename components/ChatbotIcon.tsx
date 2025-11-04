@@ -171,7 +171,7 @@ const Component = () => {
         }`}
       >
         <Image
-          src="/customer-service.svg"
+          src="/technical-support.png"
           alt="Chatbot"
           width={75}
           height={75}

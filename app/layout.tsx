@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Company - Amazing Platform",
-  description: "Welcome to our amazing platform. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  title: "VaccineGuard - Smart Vaccination Management",
+  description: "Advanced vaccine tracking and management system designed to keep you and your loved ones safe. Monitor vaccination schedules, receive reminders, and access comprehensive health records.",
 };
 
 export default function RootLayout({
