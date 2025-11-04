@@ -15,7 +15,6 @@ export default function Home() {
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#features" className="text-gray-600 hover:text-gray-900 transition-colors">Features</a>
-              <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">Pricing</a>
               <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">About</a>
               <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
             </div>
@@ -153,63 +152,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section id="pricing" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Choose Your Perfect Plan</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Select the plan that best fits your family's health management needs. All plans include our core vaccination tracking features.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Individual</h3>
-              <div className="text-4xl font-bold text-gray-900 mb-2">$9<span className="text-lg text-gray-600">/month</span></div>
-              <p className="text-gray-600 mb-6">Perfect for personal vaccination tracking</p>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>Personal vaccination records</li>
-                <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>Smart reminders</li>
-                <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>Mobile app access</li>
-              </ul>
-              <button className="w-full bg-gray-100 text-gray-700 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-colors">
-                Get Started
-              </button>
-            </div>
-            <div className="bg-gradient-to-br from-green-600 to-blue-600 p-8 rounded-xl shadow-lg text-white relative">
-              <div className="absolute top-0 right-0 bg-yellow-400 text-black px-3 py-1 rounded-bl-lg rounded-tr-xl text-sm font-bold">
-                Popular
-              </div>
-              <h3 className="text-2xl font-bold mb-4">Family</h3>
-              <div className="text-4xl font-bold mb-2">$29<span className="text-lg opacity-80">/month</span></div>
-              <p className="opacity-80 mb-6">Best for families with multiple members</p>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center"><span className="text-white mr-2">✓</span>Up to 6 family members</li>
-                <li className="flex items-center"><span className="text-white mr-2">✓</span>Family health dashboard</li>
-                <li className="flex items-center"><span className="text-white mr-2">✓</span>Emergency contacts</li>
-                <li className="flex items-center"><span className="text-white mr-2">✓</span>Health analytics</li>
-              </ul>
-              <button className="w-full bg-white text-green-600 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                Get Started
-              </button>
-            </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Enterprise</h3>
-              <div className="text-4xl font-bold text-gray-900 mb-2">Custom</div>
-              <p className="text-gray-600 mb-6">For healthcare providers and organizations</p>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>Unlimited users</li>
-                <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>Advanced analytics</li>
-                <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>API access</li>
-                <li className="flex items-center"><span className="text-green-500 mr-2">✓</span>Priority support</li>
-              </ul>
-              <button className="w-full bg-gray-100 text-gray-700 py-3 rounded-lg font-semibold hover:bg-gray-200 transition-colors">
-                Contact Sales
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Testimonials Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
@@ -277,10 +219,7 @@ export default function Home() {
           <p className="text-xl text-green-100 mb-8">
             Join thousands of families who trust VaccineGuard to keep their loved ones healthy and up-to-date with vaccinations.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-green-600 px-8 py-3 rounded-lg text-lg font-semibold hover:shadow-xl transition-all transform hover:scale-105">
-              Start Free Trial
-            </button>
+          <div className="flex justify-center">
             <button className="border-2 border-white text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-600 transition-all">
               Contact Us
             </button>
@@ -312,7 +251,6 @@ export default function Home() {
               <h4 className="font-semibold mb-4">Product</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Integrations</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">API</a></li>
               </ul>
