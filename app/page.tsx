@@ -16,12 +16,18 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <div className="w-8 h-8 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">KS</span>
+              <div className="w-16 h-16 relative">
+                <Image
+                  src="/bio-farma-logo.png"
+                  alt="Bio Farma Logo"
+                  width={70}
+                  height={70}
+                  className="object-contain mt-2"
+                />
               </div>
               <span className="ml-2 text-xl font-bold text-gray-900">Panduan Kanker Serviks</span>
             </div>
-            <div className="hidden md:flex space-x-6">
+            <div className="hidden md:flex space-x-6 ml-10">
               <a href="#overview" className="text-gray-600 hover:text-gray-900 transition-colors">Gambaran Umum</a>
               <a href="#risk-factors" className="text-gray-600 hover:text-gray-900 transition-colors">Faktor Risiko</a>
               <a href="#symptoms" className="text-gray-600 hover:text-gray-900 transition-colors">Gejala</a>
@@ -34,7 +40,7 @@ export default function Home() {
       </motion.nav>
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+      <section className="pt-34 h-screen content-center pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -1450,8 +1456,14 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">KS</span>
+                <div className="w-10 h-10 relative bg-white rounded-lg p-1">
+                  <Image
+                    src="/bio-farma-logo.png"
+                    alt="Bio Farma Logo"
+                    width={40}
+                    height={40}
+                    className="object-contain"
+                  />
                 </div>
                 <span className="ml-2 text-xl font-bold">Powered by Biofarma</span>
               </div>
