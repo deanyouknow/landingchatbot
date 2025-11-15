@@ -43,17 +43,17 @@ export default function Home() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Panduan Lengkap Kanker Serviks
+              KORPRI - SEJUTA VAKSIN untuk ASN
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Memahami kanker serviks: dari pencegahan dan deteksi dini hingga pengobatan dan pemulihan. Memberdayakan perempuan dengan pengetahuan untuk hasil kesehatan yang lebih baik.
+              Memahami kanker serviks: dari pencegahan dan deteksi dini hingga pengobatan dan pemulihan. Memberdayakan perempuan dengan pengetahuan untuk hasil kesehatan yang lebih baik. AYO DAFTAR VAKSIN
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="#screening" className="bg-gradient-to-r from-pink-600 to-purple-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:shadow-xl transition-all transform hover:scale-105">
-                Pelajari Tentang Skrining
+              <a href="#biofarma" className="bg-gradient-to-r from-pink-600 to-purple-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:shadow-xl transition-all transform hover:scale-105">
+                BIOFARMA
               </a>
-              <a href="#prevention" className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg text-lg font-semibold hover:border-gray-400 transition-colors">
-                Strategi Pencegahan
+              <a href="#etana" className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg text-lg font-semibold hover:border-gray-400 transition-colors">
+                ETANA
               </a>
             </div>
           </motion.div>
