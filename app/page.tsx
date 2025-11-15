@@ -1453,7 +1453,7 @@ export default function Home() {
                 <div className="w-8 h-8 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-sm">KS</span>
                 </div>
-                <span className="ml-2 text-xl font-bold">Panduan Kanker Serviks</span>
+                <span className="ml-2 text-xl font-bold">Powered by Biofarma</span>
               </div>
               <p className="text-gray-400 mb-4">
                 Sumber edukasi komprehensif tentang pencegahan, deteksi, dan pengobatan kanker serviks.
