@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cervical Cancer Guide - Comprehensive Educational Resource",
-  description: "Complete guide to cervical cancer: prevention, early detection, screening, treatment options, and support resources. Learn about HPV vaccination, risk factors, symptoms, and survival rates.",
+  title: "Panduan Kanker Serviks - Sumber Edukasi Komprehensif",
+  description: "Panduan lengkap kanker serviks: pencegahan, deteksi dini, skrining, pilihan pengobatan, dan sumber dukungan. Pelajari tentang vaksinasi HPV, faktor risiko, gejala, dan tingkat kelangsungan hidup.",
 };
 
 export default function RootLayout({
