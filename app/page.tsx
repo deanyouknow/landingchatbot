@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-teal-50 via-white to-orange-50">
       {/* Navigation */}
       <motion.nav
         initial={{ y: -100 }}
@@ -55,10 +55,10 @@ export default function Home() {
               Memahami kanker serviks: dari pencegahan dan deteksi dini hingga pengobatan dan pemulihan. Memberdayakan perempuan dengan pengetahuan untuk hasil kesehatan yang lebih baik. AYO DAFTAR VAKSIN
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="#biofarma" className="bg-gradient-to-r from-pink-600 to-purple-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:shadow-xl transition-all transform hover:scale-105">
+              <a href="#biofarma" className="bg-gradient-to-r from-teal-600 to-orange-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:shadow-xl transition-all transform hover:scale-105">
                 BIOFARMA
               </a>
-              <a href="#etana" className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg text-lg font-semibold hover:border-gray-400 transition-colors">
+              <a href="#etana" className="border-2 border-orange-300 text-orange-700 px-8 py-3 rounded-lg text-lg font-semibold hover:border-orange-400 transition-colors">
                 ETANA
               </a>
             </div>
@@ -95,14 +95,14 @@ export default function Home() {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <div className="w-2 h-2 bg-pink-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-teal-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                   <div>
                     <strong className="text-gray-900">Endoserviks:</strong>
                     <span className="text-gray-600"> Saluran bagian dalam yang dilapisi sel kelenjar penghasil lendir</span>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-orange-600 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                   <div>
                     <strong className="text-gray-900">Ektoserviks:</strong>
                     <span className="text-gray-600"> Bagian luar yang terlihat saat pemeriksaan panggul, dilapisi sel skuamosa</span>
@@ -116,7 +116,7 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-br from-pink-50 to-purple-50 p-8 rounded-2xl"
+              className="bg-gradient-to-br from-teal-50 to-orange-50 p-8 rounded-2xl"
             >
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Bagaimana Kanker Berkembang</h3>
               <p className="text-gray-600 mb-4">
@@ -153,15 +153,15 @@ export default function Home() {
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Fakta Penting Tentang Kanker Serviks</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl">
-                <div className="text-3xl font-bold text-pink-600 mb-2">99%</div>
+                <div className="text-3xl font-bold text-teal-600 mb-2">99%</div>
                 <p className="text-gray-600">kanker serviks disebabkan oleh infeksi HPV (Human Papillomavirus) risiko tinggi</p>
               </div>
               <div className="bg-white p-6 rounded-xl">
-                <div className="text-3xl font-bold text-purple-600 mb-2">Ke-4</div>
+                <div className="text-3xl font-bold text-orange-600 mb-2">Ke-4</div>
                 <p className="text-gray-600">kanker paling umum pada wanita di seluruh dunia, dengan lebih dari 600.000 kasus baru setiap tahun</p>
               </div>
               <div className="bg-white p-6 rounded-xl">
-                <div className="text-3xl font-bold text-blue-600 mb-2">93%</div>
+                <div className="text-3xl font-bold text-yellow-600 mb-2">93%</div>
                 <p className="text-gray-600">tingkat kelangsungan hidup 5 tahun ketika terdeteksi pada stadium awal dan terlokalisasi</p>
               </div>
             </div>
@@ -214,7 +214,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white p-6 rounded-xl shadow-lg"
             >
-              <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">👥</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Aktivitas Seksual</h3>
@@ -236,7 +236,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white p-6 rounded-xl shadow-lg"
             >
-              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">🚬</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Merokok</h3>
@@ -258,7 +258,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white p-6 rounded-xl shadow-lg"
             >
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">🛡️</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Sistem Kekebalan Lemah</h3>
@@ -280,7 +280,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white p-6 rounded-xl shadow-lg"
             >
-              <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">💊</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Penggunaan Kontrasepsi Oral Jangka Panjang</h3>
@@ -342,10 +342,10 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-r from-green-50 to-green-100 p-6 rounded-xl border-l-4 border-green-600"
+              className="bg-gradient-to-r from-teal-50 to-teal-100 p-6 rounded-xl border-l-4 border-teal-600"
             >
               <div className="flex items-start">
-                <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
                   <span className="text-white font-bold text-xl">0</span>
                 </div>
                 <div>
@@ -368,10 +368,10 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-xl border-l-4 border-blue-600"
+              className="bg-gradient-to-r from-teal-50 to-teal-100 p-6 rounded-xl border-l-4 border-teal-600"
             >
               <div className="flex items-start">
-                <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
                   <span className="text-white font-bold text-xl">I</span>
                 </div>
                 <div>
@@ -517,24 +517,24 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
             viewport={{ once: true }}
-            className="mt-8 bg-purple-50 p-6 rounded-xl"
+            className="mt-8 bg-teal-50 p-6 rounded-xl"
           >
             <h3 className="text-xl font-bold text-gray-900 mb-3">Catatan Penting Tentang Stadium</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">•</span>
+                <span className="text-teal-600 mr-2">•</span>
                 <span>Stadium membantu menentukan pendekatan pengobatan yang paling tepat</span>
               </li>
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">•</span>
+                <span className="text-teal-600 mr-2">•</span>
                 <span>Tingkat kelangsungan hidup adalah perkiraan berdasarkan kelompok besar orang dan hasil individu dapat bervariasi</span>
               </li>
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">•</span>
+                <span className="text-teal-600 mr-2">•</span>
                 <span>Deteksi dini melalui skrining rutin secara signifikan meningkatkan hasil</span>
               </li>
               <li className="flex items-start">
-                <span className="text-purple-600 mr-2">•</span>
+                <span className="text-teal-600 mr-2">•</span>
                 <span>Kemajuan pengobatan terus meningkatkan tingkat kelangsungan hidup di semua stadium</span>
               </li>
             </ul>
@@ -573,23 +573,23 @@ export default function Home() {
               <p className="text-gray-600 mb-3">Gejala paling umum dari kanker serviks:</p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">•</span>
+                  <span className="text-teal-600 mr-2">•</span>
                   <span>Perdarahan di antara periode menstruasi</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">•</span>
+                  <span className="text-teal-600 mr-2">•</span>
                   <span>Perdarahan setelah hubungan seksual</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">•</span>
+                  <span className="text-teal-600 mr-2">•</span>
                   <span>Perdarahan setelah menopause</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">•</span>
+                  <span className="text-teal-600 mr-2">•</span>
                   <span>Periode menstruasi lebih berat atau lebih lama dari biasanya</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-red-600 mr-2">•</span>
+                  <span className="text-teal-600 mr-2">•</span>
                   <span>Perdarahan setelah douching atau pemeriksaan panggul</span>
                 </li>
               </ul>
@@ -602,30 +602,30 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white p-8 rounded-xl shadow-lg"
             >
-              <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">💧</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Keputihan Tidak Normal</h3>
               <p className="text-gray-600 mb-3">Perubahan karakteristik keputihan:</p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-pink-600 mr-2">•</span>
+                  <span className="text-orange-600 mr-2">•</span>
                   <span>Jumlah keputihan meningkat</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-pink-600 mr-2">•</span>
+                  <span className="text-orange-600 mr-2">•</span>
                   <span>Keputihan berair, pucat, atau bercampur darah</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-pink-600 mr-2">•</span>
+                  <span className="text-orange-600 mr-2">•</span>
                   <span>Keputihan berbau busuk</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-pink-600 mr-2">•</span>
+                  <span className="text-orange-600 mr-2">•</span>
                   <span>Keputihan mengandung darah atau lendir</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-pink-600 mr-2">•</span>
+                  <span className="text-orange-600 mr-2">•</span>
                   <span>Keputihan persisten tidak terkait dengan siklus menstruasi</span>
                 </li>
               </ul>
@@ -638,30 +638,30 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white p-8 rounded-xl shadow-lg"
             >
-              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">⚡</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Nyeri Panggul</h3>
               <p className="text-gray-600 mb-3">Nyeri di daerah panggul:</p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-purple-600 mr-2">•</span>
+                  <span className="text-yellow-600 mr-2">•</span>
                   <span>Nyeri saat hubungan seksual (dispareunia)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-purple-600 mr-2">•</span>
+                  <span className="text-yellow-600 mr-2">•</span>
                   <span>Nyeri panggul persisten tidak terkait dengan menstruasi</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-purple-600 mr-2">•</span>
+                  <span className="text-yellow-600 mr-2">•</span>
                   <span>Nyeri punggung bawah</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-purple-600 mr-2">•</span>
+                  <span className="text-yellow-600 mr-2">•</span>
                   <span>Nyeri yang memburuk seiring waktu</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-purple-600 mr-2">•</span>
+                  <span className="text-yellow-600 mr-2">•</span>
                   <span>Kram atau tekanan di panggul</span>
                 </li>
               </ul>
@@ -674,30 +674,30 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-white p-8 rounded-xl shadow-lg"
             >
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl">🚽</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Gejala Lanjut</h3>
               <p className="text-gray-600 mb-3">Gejala yang mungkin muncul pada stadium lanjut:</p>
               <ul className="space-y-2 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-blue-600 mr-2">•</span>
+                  <span className="text-teal-600 mr-2">•</span>
                   <span>Kesulitan atau nyeri saat buang air kecil</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-600 mr-2">•</span>
+                  <span className="text-teal-600 mr-2">•</span>
                   <span>Darah dalam urin</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-600 mr-2">•</span>
+                  <span className="text-teal-600 mr-2">•</span>
                   <span>Kesulitan buang air besar</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-600 mr-2">•</span>
+                  <span className="text-teal-600 mr-2">•</span>
                   <span>Pembengkakan di kaki</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-600 mr-2">•</span>
+                  <span className="text-teal-600 mr-2">•</span>
                   <span>Penurunan berat badan dan kelelahan yang tidak dapat dijelaskan</span>
                 </li>
               </ul>
@@ -765,9 +765,9 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-br from-pink-50 to-pink-100 p-8 rounded-xl shadow-lg"
+              className="bg-gradient-to-br from-teal-50 to-teal-100 p-8 rounded-xl shadow-lg"
             >
-              <div className="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">🔬</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Pap Smear (Tes Pap)</h3>
@@ -795,9 +795,9 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl shadow-lg"
+              className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-xl shadow-lg"
             >
-              <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">🦠</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Tes HPV</h3>
@@ -825,9 +825,9 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl shadow-lg"
+              className="bg-gradient-to-br from-yellow-50 to-yellow-100 p-8 rounded-xl shadow-lg"
             >
-              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white text-2xl">🔍</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Kolposkopi dengan Biopsi</h3>
@@ -857,30 +857,30 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="bg-green-50 p-8 rounded-xl mb-8"
+            className="bg-teal-50 p-8 rounded-xl mb-8"
           >
             <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Ringkasan Pedoman Skrining</h3>
             <div className="overflow-x-auto">
               <table className="w-full text-left">
                 <thead>
-                  <tr className="border-b-2 border-green-600">
+                  <tr className="border-b-2 border-teal-600">
                     <th className="py-3 px-4 font-semibold text-gray-900">Kelompok Usia</th>
                     <th className="py-3 px-4 font-semibold text-gray-900">Tes yang Direkomendasikan</th>
                     <th className="py-3 px-4 font-semibold text-gray-900">Frekuensi</th>
                   </tr>
                 </thead>
                 <tbody className="text-gray-700">
-                  <tr className="border-b border-green-200">
+                  <tr className="border-b border-teal-200">
                     <td className="py-3 px-4">Di bawah 21</td>
                     <td className="py-3 px-4">Tidak perlu skrining</td>
                     <td className="py-3 px-4">-</td>
                   </tr>
-                  <tr className="border-b border-green-200">
+                  <tr className="border-b border-teal-200">
                     <td className="py-3 px-4">21-29</td>
                     <td className="py-3 px-4">Tes Pap saja</td>
                     <td className="py-3 px-4">Setiap 3 tahun</td>
                   </tr>
-                  <tr className="border-b border-green-200">
+                  <tr className="border-b border-teal-200">
                     <td className="py-3 px-4">30-65</td>
                     <td className="py-3 px-4">Tes HPV saja (diutamakan) ATAU Pap + HPV co-testing ATAU Tes Pap saja</td>
                     <td className="py-3 px-4">Setiap 5 tahun ATAU Setiap 5 tahun ATAU Setiap 3 tahun</td>
@@ -900,7 +900,7 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-xl"
+            className="bg-teal-50 border-l-4 border-teal-600 p-6 rounded-xl"
           >
             <h3 className="text-xl font-bold text-gray-900 mb-4">Catatan Penting Skrining</h3>
             <ul className="space-y-3 text-gray-700">
@@ -947,10 +947,10 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-r from-pink-50 to-pink-100 p-8 rounded-xl shadow-lg"
+              className="bg-gradient-to-r from-teal-50 to-teal-100 p-8 rounded-xl shadow-lg"
             >
               <div className="flex items-start">
-                <div className="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                <div className="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
                   <span className="text-white text-2xl">🔪</span>
                 </div>
                 <div className="flex-1">
@@ -999,10 +999,10 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-r from-purple-50 to-purple-100 p-8 rounded-xl shadow-lg"
+              className="bg-gradient-to-r from-orange-50 to-orange-100 p-8 rounded-xl shadow-lg"
             >
               <div className="flex items-start">
-                <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
                   <span className="text-white text-2xl">☢️</span>
                 </div>
                 <div className="flex-1">
@@ -1040,10 +1040,10 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-xl shadow-lg"
+              className="bg-gradient-to-r from-yellow-50 to-yellow-100 p-8 rounded-xl shadow-lg"
             >
               <div className="flex items-start">
-                <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                <div className="w-16 h-16 bg-yellow-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
                   <span className="text-white text-2xl">💊</span>
                 </div>
                 <div className="flex-1">
@@ -1121,7 +1121,7 @@ export default function Home() {
       </section>
 
       {/* Prevention Section */}
-      <section id="prevention" className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 to-blue-50">
+      <section id="prevention" className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-teal-50 to-orange-50">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
