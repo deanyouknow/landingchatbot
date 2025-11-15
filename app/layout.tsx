@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Panduan Kanker Serviks - Sumber Edukasi Komprehensif",
   description: "Panduan lengkap kanker serviks: pencegahan, deteksi dini, skrining, pilihan pengobatan, dan sumber dukungan. Pelajari tentang vaksinasi HPV, faktor risiko, gejala, dan tingkat kelangsungan hidup.",
+  icons: {
+    icon: "/bio-farma-logo.png",
+    shortcut: "/bio-farma-logo.png",
+    apple: "/bio-farma-logo.png",
+  },
 };
 
 export default function RootLayout({
