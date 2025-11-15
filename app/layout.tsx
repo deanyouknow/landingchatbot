@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VaccineGuard - Smart Vaccination Management",
-  description: "Advanced vaccine tracking and management system designed to keep you and your loved ones safe. Monitor vaccination schedules, receive reminders, and access comprehensive health records.",
+  title: "Cervical Cancer Guide - Comprehensive Educational Resource",
+  description: "Complete guide to cervical cancer: prevention, early detection, screening, treatment options, and support resources. Learn about HPV vaccination, risk factors, symptoms, and survival rates.",
 };
 
 export default function RootLayout({
