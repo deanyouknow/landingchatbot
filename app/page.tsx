@@ -737,56 +737,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">KS</span>
-                </div>
-                <span className="ml-2 text-xl font-bold">Panduan Kanker Serviks</span>
-              </div>
-              <p className="text-gray-400 mb-4">
-                Sumber edukasi komprehensif tentang pencegahan, deteksi, dan pengobatan kanker serviks.
-              </p>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Tautan Cepat</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#overview" className="hover:text-white transition-colors">Gambaran Umum</a></li>
-                <li><a href="#risk-factors" className="hover:text-white transition-colors">Faktor Risiko</a></li>
-                <li><a href="#symptoms" className="hover:text-white transition-colors">Gejala</a></li>
-                <li><a href="#screening" className="hover:text-white transition-colors">Skrining</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Sumber Daya</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#treatment" className="hover:text-white transition-colors">Pilihan Pengobatan</a></li>
-                <li><a href="#prevention" className="hover:text-white transition-colors">Pencegahan</a></li>
-                <li><a href="#support" className="hover:text-white transition-colors">Sumber Dukungan</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Pemberitahuan Penting</h4>
-              <p className="text-gray-400 text-sm">
-                Informasi ini hanya untuk tujuan edukasi dan tidak boleh menggantikan nasihat medis profesional. Selalu konsultasikan dengan penyedia layanan kesehatan yang berkualifikasi untuk diagnosis dan pengobatan.
-              </p>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              <p className="text-gray-400 text-sm">&copy; 2024 Panduan Edukasi Kanker Serviks. Hanya untuk tujuan informasi.</p>
-              <div className="flex space-x-6 mt-4 md:mt-0">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Kebijakan Privasi</a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Syarat Penggunaan</a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Penafian Medis</a>
-              </div>
-            </div>
-          </div>
-
       {/* Screening Methods Section */}
       <section id="screening" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -1493,6 +1443,56 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-4 gap-8">
+            <div>
+              <div className="flex items-center mb-4">
+                <div className="w-8 h-8 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg flex items-center justify-center">
+                  <span className="text-white font-bold text-sm">KS</span>
+                </div>
+                <span className="ml-2 text-xl font-bold">Panduan Kanker Serviks</span>
+              </div>
+              <p className="text-gray-400 mb-4">
+                Sumber edukasi komprehensif tentang pencegahan, deteksi, dan pengobatan kanker serviks.
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-4">Tautan Cepat</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li><a href="#overview" className="hover:text-white transition-colors">Gambaran Umum</a></li>
+                <li><a href="#risk-factors" className="hover:text-white transition-colors">Faktor Risiko</a></li>
+                <li><a href="#symptoms" className="hover:text-white transition-colors">Gejala</a></li>
+                <li><a href="#screening" className="hover:text-white transition-colors">Skrining</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-4">Sumber Daya</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li><a href="#treatment" className="hover:text-white transition-colors">Pilihan Pengobatan</a></li>
+                <li><a href="#prevention" className="hover:text-white transition-colors">Pencegahan</a></li>
+                <li><a href="#support" className="hover:text-white transition-colors">Sumber Dukungan</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-4">Pemberitahuan Penting</h4>
+              <p className="text-gray-400 text-sm">
+                Informasi ini hanya untuk tujuan edukasi dan tidak boleh menggantikan nasihat medis profesional. Selalu konsultasikan dengan penyedia layanan kesehatan yang berkualifikasi untuk diagnosis dan pengobatan.
+              </p>
+            </div>
+          </div>
+          <div className="border-t border-gray-800 mt-8 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+              <p className="text-gray-400 text-sm">&copy; 2024 Panduan Edukasi Kanker Serviks. Hanya untuk tujuan informasi.</p>
+              <div className="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Kebijakan Privasi</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Syarat Penggunaan</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Penafian Medis</a>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
