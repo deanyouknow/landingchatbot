@@ -786,6 +786,713 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+      {/* Screening Methods Section */}
+      <section id="screening" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Metode Skrining</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Skrining rutin dapat mendeteksi kanker serviks lebih awal saat paling dapat diobati, atau bahkan mencegahnya dengan menemukan perubahan prakanker.
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-br from-pink-50 to-pink-100 p-8 rounded-xl shadow-lg"
+            >
+              <div className="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-2xl">🔬</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Pap Smear (Tes Pap)</h3>
+              <p className="text-gray-700 mb-4">
+                <strong>Apa itu:</strong> Prosedur untuk mengumpulkan sel dari serviks untuk mencari perubahan prakanker atau kanker.
+              </p>
+              <p className="text-gray-700 mb-4">
+                <strong>Cara kerja:</strong> Selama pemeriksaan panggul, penyedia layanan kesehatan menggunakan sikat kecil atau spatula untuk mengumpulkan sel dari serviks dengan lembut. Sel-sel ini diperiksa di bawah mikroskop.
+              </p>
+              <p className="text-gray-700 mb-4">
+                <strong>Frekuensi yang direkomendasikan:</strong>
+              </p>
+              <ul className="text-sm text-gray-700 space-y-1 mb-4">
+                <li>• Usia 21-29: Setiap 3 tahun</li>
+                <li>• Usia 30-65: Setiap 3 tahun (Pap saja) atau setiap 5 tahun (Pap + tes HPV)</li>
+                <li>• Setelah 65: Dapat berhenti jika tes sebelumnya normal</li>
+              </ul>
+              <p className="text-gray-700">
+                <strong>Efektivitas:</strong> Dapat mendeteksi hingga 90% kanker serviks bila dilakukan secara teratur.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl shadow-lg"
+            >
+              <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-2xl">🦠</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Tes HPV</h3>
+              <p className="text-gray-700 mb-4">
+                <strong>Apa itu:</strong> Tes yang mendeteksi keberadaan tipe HPV risiko tinggi yang dapat menyebabkan kanker serviks.
+              </p>
+              <p className="text-gray-700 mb-4">
+                <strong>Cara kerja:</strong> Menggunakan sampel sel yang sama dengan tes Pap untuk memeriksa DNA HPV. Dapat dilakukan sendiri atau bersama dengan tes Pap (co-testing).
+              </p>
+              <p className="text-gray-700 mb-4">
+                <strong>Frekuensi yang direkomendasikan:</strong>
+              </p>
+              <ul className="text-sm text-gray-700 space-y-1 mb-4">
+                <li>• Usia 25-29: Tes HPV saja setiap 5 tahun (diutamakan)</li>
+                <li>• Usia 30-65: Tes HPV saja setiap 5 tahun atau co-testing setiap 5 tahun</li>
+                <li>• Tidak direkomendasikan untuk wanita di bawah 25 tahun</li>
+              </ul>
+              <p className="text-gray-700">
+                <strong>Keuntungan:</strong> Lebih sensitif daripada tes Pap saja dan dapat memprediksi risiko kanker di masa depan.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl shadow-lg"
+            >
+              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-white text-2xl">🔍</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Kolposkopi dengan Biopsi</h3>
+              <p className="text-gray-700 mb-4">
+                <strong>Apa itu:</strong> Prosedur lanjutan ketika tes Pap atau HPV menunjukkan hasil abnormal.
+              </p>
+              <p className="text-gray-700 mb-4">
+                <strong>Cara kerja:</strong> Kolposkop (instrumen pembesar bercahaya) digunakan untuk memeriksa serviks dengan cermat. Jika area abnormal terlihat, sampel jaringan kecil (biopsi) diambil untuk analisis laboratorium.
+              </p>
+              <p className="text-gray-700 mb-4">
+                <strong>Kapan digunakan:</strong>
+              </p>
+              <ul className="text-sm text-gray-700 space-y-1 mb-4">
+                <li>• Hasil tes Pap abnormal</li>
+                <li>• Tes HPV risiko tinggi positif</li>
+                <li>• Kelainan yang terlihat pada serviks</li>
+                <li>• Perdarahan yang tidak dapat dijelaskan</li>
+              </ul>
+              <p className="text-gray-700">
+                <strong>Tujuan:</strong> Memberikan diagnosis definitif perubahan prakanker atau kanker.
+              </p>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="bg-green-50 p-8 rounded-xl mb-8"
+          >
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Ringkasan Pedoman Skrining</h3>
+            <div className="overflow-x-auto">
+              <table className="w-full text-left">
+                <thead>
+                  <tr className="border-b-2 border-green-600">
+                    <th className="py-3 px-4 font-semibold text-gray-900">Kelompok Usia</th>
+                    <th className="py-3 px-4 font-semibold text-gray-900">Tes yang Direkomendasikan</th>
+                    <th className="py-3 px-4 font-semibold text-gray-900">Frekuensi</th>
+                  </tr>
+                </thead>
+                <tbody className="text-gray-700">
+                  <tr className="border-b border-green-200">
+                    <td className="py-3 px-4">Di bawah 21</td>
+                    <td className="py-3 px-4">Tidak perlu skrining</td>
+                    <td className="py-3 px-4">-</td>
+                  </tr>
+                  <tr className="border-b border-green-200">
+                    <td className="py-3 px-4">21-29</td>
+                    <td className="py-3 px-4">Tes Pap saja</td>
+                    <td className="py-3 px-4">Setiap 3 tahun</td>
+                  </tr>
+                  <tr className="border-b border-green-200">
+                    <td className="py-3 px-4">30-65</td>
+                    <td className="py-3 px-4">Tes HPV saja (diutamakan) ATAU Pap + HPV co-testing ATAU Tes Pap saja</td>
+                    <td className="py-3 px-4">Setiap 5 tahun ATAU Setiap 5 tahun ATAU Setiap 3 tahun</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3 px-4">Di atas 65</td>
+                    <td className="py-3 px-4">Dapat berhenti jika skrining sebelumnya memadai</td>
+                    <td className="py-3 px-4">Diskusikan dengan dokter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-xl"
+          >
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Catatan Penting Skrining</h3>
+            <ul className="space-y-3 text-gray-700">
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 font-bold">•</span>
+                <span><strong>Skrining lebih sering mungkin diperlukan jika:</strong> Anda memiliki HIV, sistem kekebalan lemah, riwayat kanker serviks atau prakanker, atau paparan DES sebelum lahir</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 font-bold">•</span>
+                <span><strong>Anda mungkin tidak perlu skrining jika:</strong> Anda telah menjalani histerektomi total (pengangkatan rahim dan serviks) karena alasan non-kanker dan tidak ada riwayat kanker serviks atau prakanker</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 font-bold">•</span>
+                <span><strong>Vaksinasi HPV tidak menggantikan skrining:</strong> Bahkan jika Anda telah divaksinasi terhadap HPV, skrining rutin tetap diperlukan</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 mr-2 font-bold">•</span>
+                <span><strong>Skrining menyelamatkan nyawa:</strong> Skrining rutin telah mengurangi kematian akibat kanker serviks lebih dari 60% di negara-negara dengan program skrining terorganisir</span>
+              </li>
+            </ul>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Treatment Options Section */}
+      <section id="treatment" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Pilihan Pengobatan</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Pengobatan tergantung pada stadium kanker, jenis, kesehatan keseluruhan, dan preferensi pribadi. Seringkali, kombinasi pengobatan digunakan.
+            </p>
+          </motion.div>
+
+          <div className="space-y-8">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-r from-pink-50 to-pink-100 p-8 rounded-xl shadow-lg"
+            >
+              <div className="flex items-start">
+                <div className="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                  <span className="text-white text-2xl">🔪</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Pembedahan</h3>
+                  <p className="text-gray-700 mb-4">
+                    Pilihan pembedahan bervariasi berdasarkan stadium kanker dan apakah pelestarian kesuburan diinginkan:
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Konisasi</h4>
+                      <p className="text-gray-600 text-sm mb-2">Mengangkat potongan jaringan serviks berbentuk kerucut yang mengandung sel abnormal.</p>
+                      <p className="text-gray-600 text-sm"><strong>Digunakan untuk:</strong> Kanker stadium sangat awal, mempertahankan kesuburan</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Trakelektomi</h4>
+                      <p className="text-gray-600 text-sm mb-2">Mengangkat serviks dan vagina bagian atas tetapi membiarkan rahim tetap utuh.</p>
+                      <p className="text-gray-600 text-sm"><strong>Digunakan untuk:</strong> Kanker stadium awal pada wanita yang ingin mempertahankan kesuburan</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Histerektomi Sederhana</h4>
+                      <p className="text-gray-600 text-sm mb-2">Mengangkat rahim dan serviks.</p>
+                      <p className="text-gray-600 text-sm"><strong>Digunakan untuk:</strong> Kanker stadium awal yang terbatas pada serviks</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Histerektomi Radikal</h4>
+                      <p className="text-gray-600 text-sm mb-2">Mengangkat rahim, serviks, vagina bagian atas, dan jaringan di sekitarnya.</p>
+                      <p className="text-gray-600 text-sm"><strong>Digunakan untuk:</strong> Kanker stadium IB-IIA</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Eksenterasi Panggul</h4>
+                      <p className="text-gray-600 text-sm mb-2">Pembedahan ekstensif mengangkat organ panggul (mungkin termasuk kandung kemih, rektum).</p>
+                      <p className="text-gray-600 text-sm"><strong>Digunakan untuk:</strong> Kanker berulang atau kasus sangat lanjut</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Pengangkatan Kelenjar Getah Bening</h4>
+                      <p className="text-gray-600 text-sm mb-2">Mengangkat kelenjar getah bening panggul dan/atau para-aorta.</p>
+                      <p className="text-gray-600 text-sm"><strong>Digunakan untuk:</strong> Stadium dan pengobatan, sering dikombinasikan dengan pembedahan lain</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-r from-purple-50 to-purple-100 p-8 rounded-xl shadow-lg"
+            >
+              <div className="flex items-start">
+                <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                  <span className="text-white text-2xl">☢️</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Terapi Radiasi</h3>
+                  <p className="text-gray-700 mb-4">
+                    Menggunakan sinar atau partikel berenergi tinggi untuk menghancurkan sel kanker. Dua jenis utama:
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-4 mb-4">
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Radiasi Sinar Eksternal</h4>
+                      <p className="text-gray-600 text-sm mb-2">Radiasi diberikan dari luar tubuh menggunakan mesin.</p>
+                      <p className="text-gray-600 text-sm"><strong>Jadwal:</strong> Biasanya 5 hari/minggu selama 5-6 minggu</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Brakiterapi (Radiasi Internal)</h4>
+                      <p className="text-gray-600 text-sm mb-2">Bahan radioaktif ditempatkan di dalam atau dekat tumor.</p>
+                      <p className="text-gray-600 text-sm"><strong>Jenis:</strong> Dosis rendah (LDR) atau dosis tinggi (HDR)</p>
+                    </div>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-semibold text-gray-900 mb-2">Kapan Digunakan:</h4>
+                    <ul className="text-gray-600 text-sm space-y-1">
+                      <li>• Pengobatan utama untuk kanker lanjut lokal (sering dengan kemoterapi)</li>
+                      <li>• Setelah pembedahan untuk membunuh sel kanker yang tersisa</li>
+                      <li>• Untuk meredakan gejala pada kanker lanjut (perawatan paliatif)</li>
+                      <li>• Untuk pasien yang tidak dapat menjalani pembedahan</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-xl shadow-lg"
+            >
+              <div className="flex items-start">
+                <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                  <span className="text-white text-2xl">💊</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Kemoterapi</h3>
+                  <p className="text-gray-700 mb-4">
+                    Menggunakan obat untuk membunuh sel kanker di seluruh tubuh. Dapat diberikan sendiri atau dikombinasikan dengan radiasi (kemoradiasi).
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-4 mb-4">
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Obat yang Umum Digunakan:</h4>
+                      <ul className="text-gray-600 text-sm space-y-1">
+                        <li>• Cisplatin (paling umum)</li>
+                        <li>• Carboplatin</li>
+                        <li>• Paclitaxel (Taxol)</li>
+                        <li>• Topotecan</li>
+                        <li>• Gemcitabine</li>
+                      </ul>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-900 mb-2">Pemberian:</h4>
+                      <ul className="text-gray-600 text-sm space-y-1">
+                        <li>• Biasanya diberikan secara intravena (IV)</li>
+                        <li>• Siklus pengobatan diikuti periode istirahat</li>
+                        <li>• Siklus tipikal: 3-4 minggu</li>
+                        <li>• Durasi: Beberapa bulan</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="bg-white p-4 rounded-lg">
+                    <h4 className="font-semibold text-gray-900 mb-2">Kapan Digunakan:</h4>
+                    <ul className="text-gray-600 text-sm space-y-1">
+                      <li>• Dikombinasikan dengan radiasi untuk kanker lanjut lokal</li>
+                      <li>• Untuk kanker metastatik atau berulang</li>
+                      <li>• Sebelum pembedahan untuk mengecilkan tumor (neoadjuvan)</li>
+                      <li>• Setelah pembedahan untuk menghilangkan sel yang tersisa (adjuvan)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="mt-12 bg-indigo-50 p-8 rounded-xl"
+          >
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Pengobatan Berdasarkan Stadium</h3>
+            <div className="space-y-4">
+              <div className="bg-white p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-900 mb-2">Stadium 0 & IA1:</h4>
+                <p className="text-gray-600 text-sm">Konisasi, LEEP, atau histerektomi sederhana</p>
+              </div>
+              <div className="bg-white p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-900 mb-2">Stadium IA2 & IB1:</h4>
+                <p className="text-gray-600 text-sm">Histerektomi radikal dengan pengangkatan kelenjar getah bening, atau terapi radiasi dengan kemoterapi</p>
+              </div>
+              <div className="bg-white p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-900 mb-2">Stadium IB2, IB3, & II:</h4>
+                <p className="text-gray-600 text-sm">Kemoradiasi (radiasi + kemoterapi), atau histerektomi radikal diikuti radiasi</p>
+              </div>
+              <div className="bg-white p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-900 mb-2">Stadium III & IVA:</h4>
+                <p className="text-gray-600 text-sm">Kemoradiasi sebagai pengobatan utama</p>
+              </div>
+              <div className="bg-white p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-900 mb-2">Stadium IVB & Berulang:</h4>
+                <p className="text-gray-600 text-sm">Kemoterapi, terapi target, imunoterapi, atau radiasi paliatif</p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Prevention Section */}
+      <section id="prevention" className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 to-blue-50">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Strategi Pencegahan</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Kanker serviks adalah salah satu kanker yang paling dapat dicegah. Strategi ini dapat secara signifikan mengurangi risiko Anda.
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="bg-white p-8 rounded-xl shadow-xl"
+            >
+              <div className="w-16 h-16 bg-gradient-to-r from-green-600 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-white text-3xl">💉</span>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Vaksinasi HPV</h3>
+              <p className="text-gray-700 mb-4">
+                <strong>Pencegahan Paling Efektif:</strong> Vaksin HPV melindungi terhadap tipe HPV yang menyebabkan sebagian besar kanker serviks.
+              </p>
+              <div className="space-y-3">
+                <div className="bg-green-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">Vaksin yang Tersedia:</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Gardasil 9 (melindungi terhadap 9 tipe HPV)</li>
+                    <li>• Cervarix (melindungi terhadap 2 tipe HPV)</li>
+                  </ul>
+                </div>
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">Usia yang Direkomendasikan:</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Vaksinasi rutin: usia 11-12 tahun</li>
+                    <li>• Dapat dimulai sejak usia 9 tahun</li>
+                    <li>• Vaksinasi catch-up: hingga usia 26 tahun</li>
+                    <li>• Dewasa 27-45: diskusikan dengan dokter</li>
+                  </ul>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">Efektivitas:</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Hampir 100% efektif bila diberikan sebelum paparan HPV</li>
+                    <li>• Mencegah 90% kanker terkait HPV</li>
+                    <li>• Perlindungan jangka panjang (10+ tahun terbukti)</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="bg-white p-8 rounded-xl shadow-xl"
+            >
+              <div className="w-16 h-16 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                <span className="text-white text-3xl">🔬</span>
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Skrining Rutin</h3>
+              <p className="text-gray-700 mb-4">
+                <strong>Deteksi Dini Menyelamatkan Nyawa:</strong> Skrining rutin dapat mendeteksi perubahan prakanker sebelum menjadi kanker.
+              </p>
+              <div className="space-y-3">
+                <div className="bg-pink-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">Jadwal Skrining:</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Usia 21-29: Tes Pap setiap 3 tahun</li>
+                    <li>• Usia 30-65: Tes HPV setiap 5 tahun (diutamakan)</li>
+                    <li>• Atau Pap + HPV co-testing setiap 5 tahun</li>
+                    <li>• Atau tes Pap saja setiap 3 tahun</li>
+                  </ul>
+                </div>
+                <div className="bg-purple-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">Mengapa Berhasil:</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Mendeteksi perubahan prakanker lebih awal</li>
+                    <li>• Memungkinkan pengobatan sebelum kanker berkembang</li>
+                    <li>• Mengidentifikasi kanker pada stadium paling dapat diobati</li>
+                    <li>• Mengurangi kematian kanker serviks 60-80%</li>
+                  </ul>
+                </div>
+                <div className="bg-blue-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">Penting:</h4>
+                  <p className="text-gray-600 text-sm">Lanjutkan skrining bahkan jika Anda telah divaksinasi terhadap HPV</p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-white p-6 rounded-xl shadow-lg"
+            >
+              <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
+                <span className="text-2xl">🚭</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Berhenti Merokok</h3>
+              <p className="text-gray-600 mb-3">
+                Berhenti merokok mengurangi risiko kanker serviks:
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Merokok menggandakan risiko kanker serviks</li>
+                <li>• Tembakau merusak DNA sel serviks</li>
+                <li>• Melemahkan respons imun terhadap HPV</li>
+                <li>• Risiko menurun setelah berhenti</li>
+              </ul>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              viewport={{ once: true }}
+              className="bg-white p-6 rounded-xl shadow-lg"
+            >
+              <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mb-4">
+                <span className="text-2xl">🛡️</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Praktik Seksual Aman</h3>
+              <p className="text-gray-600 mb-3">
+                Mengurangi risiko penularan HPV:
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Gunakan kondom secara konsisten (mengurangi tetapi tidak menghilangkan risiko)</li>
+                <li>• Batasi jumlah pasangan seksual</li>
+                <li>• Tunda hubungan seksual pertama</li>
+                <li>• Hindari pasangan dengan banyak pasangan</li>
+              </ul>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              viewport={{ once: true }}
+              className="bg-white p-6 rounded-xl shadow-lg"
+            >
+              <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                <span className="text-2xl">💪</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Perkuat Sistem Kekebalan</h3>
+              <p className="text-gray-600 mb-3">
+                Dukung pertahanan alami tubuh Anda:
+              </p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Makan makanan seimbang dan bergizi</li>
+                <li>• Olahraga teratur</li>
+                <li>• Tidur yang cukup</li>
+                <li>• Kelola stres secara efektif</li>
+                <li>• Pertahankan berat badan sehat</li>
+              </ul>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="bg-gradient-to-r from-blue-600 to-purple-600 p-8 rounded-xl text-white"
+          >
+            <h3 className="text-2xl font-bold mb-4 text-center">Kisah Sukses Pencegahan</h3>
+            <p className="text-lg text-center mb-6">
+              Negara-negara dengan program vaksinasi HPV dan skrining komprehensif telah melihat penurunan dramatis dalam tingkat kanker serviks:
+            </p>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white/20 backdrop-blur-sm p-6 rounded-lg text-center">
+                <div className="text-4xl font-bold mb-2">87%</div>
+                <p className="text-sm">Pengurangan insiden kanker serviks pada wanita yang divaksinasi</p>
+              </div>
+              <div className="bg-white/20 backdrop-blur-sm p-6 rounded-lg text-center">
+                <div className="text-4xl font-bold mb-2">90%</div>
+                <p className="text-sm">Kanker serviks dapat dicegah dengan vaksinasi dan skrining</p>
+              </div>
+              <div className="bg-white/20 backdrop-blur-sm p-6 rounded-lg text-center">
+                <div className="text-4xl font-bold mb-2">100%</div>
+                <p className="text-sm">Hampir semua kanker serviks disebabkan oleh infeksi HPV yang dapat dicegah</p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Support Resources Section */}
+      <section id="support" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Sumber Dukungan & Dampak Global</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Akses ke dukungan dan memahami beban global kanker serviks.
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl shadow-lg"
+            >
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Sumber Dukungan</h3>
+              <div className="space-y-4">
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">🏥 Dukungan Medis</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Tim onkologi dan spesialis</li>
+                    <li>• Navigator perawat</li>
+                    <li>• Layanan perawatan paliatif</li>
+                    <li>• Klinik manajemen nyeri</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">💬 Dukungan Emosional</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Kelompok dukungan kanker</li>
+                    <li>• Konseling individual</li>
+                    <li>• Komunitas online</li>
+                    <li>• Program mentoring sebaya</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">📚 Sumber Edukasi</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Yayasan Kanker Indonesia</li>
+                    <li>• Kementerian Kesehatan RI</li>
+                    <li>• Rumah sakit kanker lokal</li>
+                    <li>• Organisasi kesehatan wanita</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">💰 Bantuan Keuangan</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Layanan navigasi asuransi (BPJS)</li>
+                    <li>• Program bantuan farmasi</li>
+                    <li>• Organisasi nirlaba</li>
+                    <li>• Program bantuan pemerintah</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+              className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-xl shadow-lg"
+            >
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Dampak Global</h3>
+              <div className="space-y-4">
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">🌍 Statistik Dunia</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• 600.000+ kasus baru setiap tahun</li>
+                    <li>• 340.000+ kematian per tahun</li>
+                    <li>• Kanker ke-4 paling umum pada wanita</li>
+                    <li>• 90% kematian di negara berpenghasilan rendah/menengah</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">⚖️ Kesenjangan Kesehatan</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Akses skrining terbatas di negara berkembang</li>
+                    <li>• Tingkat lebih tinggi di komunitas kurang terlayani</li>
+                    <li>• Hambatan sosial ekonomi terhadap perawatan</li>
+                    <li>• Tantangan budaya dan pendidikan</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">🎯 Strategi Eliminasi WHO</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• 90% anak perempuan divaksinasi pada usia 15 tahun</li>
+                    <li>• 70% wanita diskrining dua kali pada usia 45 tahun</li>
+                    <li>• 90% kasus teridentifikasi menerima pengobatan</li>
+                    <li>• Tujuan: Eliminasi kanker serviks sebagai masalah kesehatan masyarakat</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">✨ Kemajuan Terkini</h4>
+                  <ul className="text-gray-600 text-sm space-y-1">
+                    <li>• Vaksin HPV yang ditingkatkan</li>
+                    <li>• Tes HPV mandiri</li>
+                    <li>• Terobosan imunoterapi</li>
+                    <li>• Skrining berbantuan AI</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="bg-gradient-to-r from-pink-600 to-purple-600 p-8 rounded-xl text-white"
+          >
+            <h3 className="text-2xl font-bold mb-4 text-center">Penyakit yang Dapat Dicegah</h3>
+            <p className="text-lg text-center mb-6">
+              Kanker serviks adalah salah satu bentuk kanker yang paling dapat dicegah dan diobati ketika terdeteksi dini. Dengan program vaksinasi komprehensif, skrining rutin, dan peningkatan akses ke pengobatan, kita dapat bekerja menuju eliminasi kanker serviks sebagai ancaman kesehatan masyarakat di seluruh dunia.
+            </p>
+            <div className="text-center">
+              <p className="text-xl font-semibold">Bersama-sama, kita dapat menjadikan kanker serviks sebagai sejarah.</p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
         </div>
       </footer>
     </div>
